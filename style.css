@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(248, 227, 200);
+}
+#frm{
+  border: 1px solid black;
+  padding: 35px;
+  box-shadow: 2px 10px 20px rgb(112, 99, 99);
+  width: 275px;
+  border-radius: 10px;
+  background-color:rgb(189, 225, 250);
+  margin: 10px;
+  
+}

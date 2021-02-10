@@ -1,3 +1,4 @@
+
 function disableTxt() {
    var x=document.getElementsByClassName("pond");
    for(var i=0;i<x.length;i++)
@@ -18,3 +19,5 @@ undisableTxt();
 enab();
 disableTxt();
 dis();
+
+

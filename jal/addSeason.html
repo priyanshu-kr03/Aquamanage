@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="addSeasoncss.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>add Season</title>
+  </head>
+  <body>
+    <div class="p-0"><ul id="list" style="list-style: none"></ul></div>
+
+    <div id="addBtn">
+      <button id="myBtn">Add Season</button>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <form id="default">
+          <div class="form-row">
+            <div class="form-group col-sm-4">
+              <label for="inputEmail4">Fish type</label><br />
+              <!-- <input type="email" class="form-control" id="inputEmail4" placeholder="Email"> -->
+
+              <select class="form-control" id="sel1">
+                <option>Labeo Rohita</option>
+                <option>Indian Carp</option>
+                <option>Hilsa</option>
+                <option>Ailia Coila</option>
+              </select>
+            </div>
+
+            <div class="form-group col-sm-4">
+              <label for="inputPassword4">Fish Growth Stage</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="type here"
+                required
+              />
+            </div>
+
+            <div class="form-group col-sm-4">
+              <label for="inputPassword4">Stocking Date</label>
+              <!-- <input
+                type="text"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Type here"
+                required
+              /> -->
+
+              <input
+                class="form-control"
+                type="date"
+                value="2011-08-19"
+                id="example-date-input"
+              />
+            </div>
+
+            <div class="form-group col-sm-4">
+              <label for="inputPassword4">Stocking No</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Type here"
+                required
+              />
+            </div>
+
+            <div class="form-group col-sm-4">
+              <label for="inputPassword4">Production Period</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Type here"
+                required
+              />
+            </div>
+
+            <div class="form-group col-sm-4">
+              <label for="inputPassword4">Stocking No</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Type here"
+                required
+              />
+            </div>
+
+            <div class="form-group col-sm-4">
+              <label for="inputPassword4">Production Period</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Type here"
+                required
+              />
+            </div>
+          </div>
+
+          <button type="button" onclick="my()">submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="addSeason.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
